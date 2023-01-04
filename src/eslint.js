@@ -24,7 +24,7 @@ export default async function eslint(
   });
   const report = cli.executeOnFiles(files);
   // fixableErrorCount, fixableWarningCount are available too
-  const { results, errorCount, warningCount } = report;
+  const {results, errorCount, warningCount } = report;
 
   const levels = ['', 'warning', 'failure'];
 
